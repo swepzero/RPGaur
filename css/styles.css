@@ -86,4 +86,31 @@
   .gallery img:hover{
     transform: scale(1.1);
   }
-  
+
+
+
+  /* Books */
+  @font-face {
+    font-family: "kalamlight";
+    src: url("../fonts/kalam-light-webfont.woff2") format("woff2"),
+         url("../fonts/kalam-light-webfont.woff") format("woff");
+  }
+  .book-card-img {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: none;
+    height: 300px;
+  }
+
+  .book-card-header {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .book-card-para {
+    font-size:large;
+    font-stretch: expanded;
+    text-align: justify;
+    margin-top: 10px;
+    font-family: "kalamlight";
+  } 
