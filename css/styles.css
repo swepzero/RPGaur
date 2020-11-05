@@ -108,8 +108,7 @@
     text-decoration: underline;
   }
   .book-card-para {
-    font-size:large;
-    font-stretch: expanded;
+    font-size:90%;
     text-align: justify;
     margin-top: 10px;
     font-family: "kalamlight";
