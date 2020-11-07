@@ -29,7 +29,7 @@
     z-index: 0;
   }
   .navbar-dark {
-    background-color: #512DA8;
+    background-color: #a87c4f;
   }
   .tab-content {
     border-left: 1px solid #ddd;
@@ -104,12 +104,25 @@
   }
 
   .book-card-header {
-    text-align: center;
-    text-decoration: underline;
+    text-align: left;
+    /* text-decoration: underline; */
   }
   .book-card-para {
     font-size:90%;
     text-align: justify;
     margin-top: 10px;
     font-family: "kalamlight";
+
   } 
+.card{
+  border-color: #a87c4f;
+  /* border-radius: 0; */
+  border-width: 4px;
+
+}
+.card-body{
+  margin:5px;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #a87c4f;
+}
