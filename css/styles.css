@@ -15,9 +15,8 @@
   }
   .jumbotron {
     margin: 0px auto;
-    padding: 70px 30px;
-    background: #9575CD;
-    color: floralwhite;
+    padding: 30px 20px;
+    background: #be945f;
   }
   address {
     font-size: 80%;
@@ -80,14 +79,10 @@
     transition:0.4s;
     height: 300px;
     padding: 15px;
-  
-  
   }
   .gallery img:hover{
     transform: scale(1.1);
   }
-
-
 
   /* Books */
   @font-face {
@@ -120,9 +115,14 @@
   border-width: 4px;
   margin-bottom: 30px;
 }
+.card-header {
+    text-align: center;
+    font-weight: bolder;
+}
 .card-body{
   margin:5px;
-  font-family: "kalamlight";
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
   color: #a87c4f;
