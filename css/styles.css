@@ -8,15 +8,10 @@
     border-bottom: 1px ridge;
     min-height: 400px;
   }
-  .footer {
-    background-color: #D1C4E9;
-    margin: 0px auto;
-    padding: 20px 0px;
-  }
   .jumbotron {
     margin: 0px auto;
     padding: 30px 20px;
-    background: #b37700;
+    background: #b37700 !important;
   }
   address {
     font-size: 80%;
@@ -28,10 +23,10 @@
     z-index: 0;
   }
   .navbar-dark {
-    background-color: #805500;
+    background-color: #805500 !important;
   }
   .carousel {
-    background: #b37700;
+    background: #b37700 !important;
     width: 500px;
     height: 400px;
   }
@@ -111,14 +106,15 @@
     font-family: "kalamlight";
   } 
 .card{
-  border-color: #b37700;
+  border-color: #b37700 !important;
   /* border-radius: 0; */
-  border-width: 6px;
+  border-width: 6px !important;
   margin-bottom: 30px;
 }
 .card-header {
     text-align: left;
     font-weight: bolder;
+    background-color: beige !important;
 }
 .card-body{
   margin:5px;
@@ -127,5 +123,5 @@
 }
 h1,h2,h3,h4,h5,h6{
   color: #b37700;
-  font-family: "kalamlight";
+  font-family: "kalamlight" !important;
 }
