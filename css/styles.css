@@ -16,7 +16,7 @@
   .jumbotron {
     margin: 0px auto;
     padding: 30px 20px;
-    background: #be945f;
+    background: #b37700;
   }
   address {
     font-size: 80%;
@@ -28,7 +28,7 @@
     z-index: 0;
   }
   .navbar-dark {
-    background-color: #a87c4f;
+    background-color: #805500;
   }
   .tab-content {
     border-left: 1px solid #ddd;
@@ -37,7 +37,7 @@
     padding: 10px;
   }
   .carousel {
-    background: #be945f;
+    background: #b37700;
   }
   .carousel .carousel-item {
     height: 400px;
@@ -97,6 +97,13 @@
     border-style: none;
     height: 300px;
   }
+  .book-card-logo {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: none;
+    height: 150px;
+    width: 90px;
+  }
 
   .book-card-header {
     text-align: left;
@@ -110,9 +117,9 @@
 
   } 
 .card{
-  border-color: #a87c4f;
+  border-color: #b37700;
   /* border-radius: 0; */
-  border-width: 4px;
+  border-width: 6px;
   margin-bottom: 30px;
 }
 .card-header {
@@ -125,6 +132,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 h1,h2,h3,h4,h5,h6{
-  color: #a87c4f;
+  color: #b37700;
   font-family: "kalamlight";
 }
